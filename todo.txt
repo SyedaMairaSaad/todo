@@ -1,8 +1,4 @@
 saaaaa/nsaad
-clean
-one
-two
 one
 two
 new
-guisd/nzem
