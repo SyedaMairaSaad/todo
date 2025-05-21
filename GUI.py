@@ -1,6 +1,11 @@
 import FreeSimpleGUI as sg
 import functions
 import time
+import os
+
+if not os.path.exists('todos.txt'):
+    with open('todo.txt','w') as file:
+        pass
 
 sg.theme('DarkBrown1')
 time_label= sg.Text(key='time_label')
